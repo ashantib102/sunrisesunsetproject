@@ -1,3 +1,4 @@
+
 body{
     text-align: center;
 }
@@ -16,20 +17,32 @@ h1{
 
 #sunrise{
     background-image: url("https://images.pexels.com/photos/67832/sunrise-sky-blue-sunlight-67832.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");  
-    padding: 70px 0px;
+    padding: 50px 0px;
+    border-radius: 60px;
 }
 
 #sunset{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Sunset_2007-1.jpg/1200px-Sunset_2007-1.jpg");  
-    padding: 70px 0px;
+    padding: 50px 0px;
+    border-radius: 60px;
 }
+
+#timeDisplay {
+  top:10px;
+  height: 300px;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  border-radius: 5px;
+  padding-top: 50px;
+}
+
 header.masthead {
-  margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #868e96;
   background-attachment: scroll;
   position: relative;
   background-size: cover;
+
 }
 
 header.masthead .overlay {
